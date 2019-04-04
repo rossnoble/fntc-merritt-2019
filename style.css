@@ -1,0 +1,174 @@
+/* Main stylesheet */
+
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  /* Standardized box model */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  background-image: url(images/white-waves.png);
+  font-family: Helvetica, Arial;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  margin: 20px 0;
+  line-height: 1.5;
+}
+
+ol, ul {
+  margin: 20px 0;
+  line-height: 1.25;
+}
+
+li {
+  line-height: 1.75;
+}
+
+/* Unvisited, focused and clicked states */
+a {
+  color: red;
+  text-decoration: none;
+}
+
+/* On hover state */
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: darkred;
+}
+
+img {
+  height: 250px;
+
+  /* Hack to make sure images do not
+  break our page */
+  max-width: 100%;
+}
+
+/* Groups */
+header,
+section,
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  clear: both;
+}
+
+header {
+  background-color: lightgray;
+  background-image: url('images/nicola-valley-dark.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 350px;
+  padding: 50px 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+header h2,
+header h3,
+header h1 {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer h1 {
+  color: white;
+}
+
+section h1 {
+  color: green;
+}
+
+.banana {
+  color: yellow;
+}
+
+.title {
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url(images/mountain-medium.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  text-align: center;
+  padding-top: 120px;
+  display: none;
+}
+
+.banner h2 {
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.banner p {
+  font-size: 40px;
+}
+
+.pride {
+  color: red;
+  text-shadow: 0 5px orange,
+               0 10px yellow,
+               0 15px green,
+               0 20px skyblue,
+               0 25px indigo,
+               0 30px white;
+}
+
+.float-image {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border: 5px dashed red;
+}
+
+.column {
+  float: left;
+  border: 5px dashed red;
+  width: 50%;
+}
