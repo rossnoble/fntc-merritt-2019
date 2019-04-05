@@ -193,6 +193,8 @@ table td {
 .container {
   max-width: 800px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .banner {
@@ -215,12 +217,8 @@ table td {
 
 .pride {
   color: red;
-  text-shadow: 0 5px orange,
-               0 10px yellow,
-               0 15px green,
-               0 20px skyblue,
-               0 25px indigo,
-               0 30px white;
+  text-shadow: 3px 3px orange, 6px 6px yellow;
+  margin-right: 3px;
 }
 
 .float-left {
