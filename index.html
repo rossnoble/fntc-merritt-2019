@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>FITC-150 - Merritt</title>
+  <title>Web Dev Merritt 2019 | Home</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Germania+One|Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 <body>
-  <header id="top">
+  <header>
     <div class="container">
-      <h1 class="title">Foundations Merritt</h1>
-      <h3>Web Development</h3>
-      <p>Welcome to the student website showcase for the <a href="http://http://technologycouncil.ca">Foundations in Innovation and Technology</a> program in Merritt, BC. Here I will show off all the <em>amazing work</em> of the students. All of the these websites were built from scratch using raw HTML and CSS.</p>
-
-      <p>Grading information for the course can be accessed <a href="grading.html">here</a>.</p>
+      <h1 class="title">
+        <a href="./index.html">Foundations Merritt</a>
+      </h1>
+      <h3>FITC-130: Web Development</h3>
     </div>
   </header>
 
-  <div class="banner">
-    <h2 class="pride">Welcome to FITC-150 in Merritt!</h2>
-    <p class="pride">I hope you enjoy your stay</p>
-  </div>
+  <nav class="nav clearfix">
+    <div class="container">
+      <ul>
+        <li class="nav-selected">
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./grading.html">Grading</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <div class="container">
 
-    <section>
-      <img src="images/kitten.jpg" class="float-image" />
-      <p>This is a photo of a very cute kitten.</p>
+    <section class="clearfix">
+      <h2>About</h2>
+      <img src="images/kitten.jpg" alt="Kitten" class="float-left" />
+      <p>Welcome to the student website showcase for the <a href="http://http://technologycouncil.ca">Foundations in Innovation and Technology</a> program in Merritt, BC. Here I will show off all the <em>amazing work</em> of the class.</p>
+      <p>All of the these websites were built from scratch using raw HTML and CSS.</p>
     </section>
 
-    <section>
+    <section class="clearfix">
       <div class="column">
         <h2>Column 1</h2>
         <p>I'm a left column.</p>
@@ -48,23 +57,11 @@
       </a>
 
       <p>Source: <a href="http://britishcolumbia.com/plan-your-trip/regions-and-towns/thompson-okanagan/nicola-valley/">BritishColumbia.com</a></p>
-
-      <img src="images/code.jpg" alt="Code" />
     </section>
 
     <section>
-      <h1>Websites</h1>
-      <p>Below are links to all the student websites.</p>
-      <p>I'm a link!</p>
-
-      <ul>
-        <li>
-          <a href="#">Link 1</a>
-        </li>
-        <li>
-          <a href="#">Link 2</a>
-        </li>
-      </ul>
+      <h1>Videos</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/LJlYX7PZ9UU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
 
     <section>
@@ -77,8 +74,8 @@
         <li>
           <a href="https://www.google.com/chrome">Google Chrome</a>
         </li>
-        <li>Heart, soul, brains!</li>
-        <li>Laptop, Mouse and Keyboard</li>
+        <li>Laptop, mouse and keyboard</li>
+        <li>Heart, soul, brain!</li>
       </ul>
     </section>
 
@@ -87,20 +84,22 @@
       <p>After a vote, here are the most popular lunch spots for the class.</p>
       <ol>
         <li>Kekuli's</li>
-        <li>NVIT BBQ</li>
+        <li>NVIT Cafeteria</li>
         <li>Subway</li>
         <li>Yaki Joe's</li>
       </ol>
     </section>
 
+    <section>
+      <h1>Websites</h1>
+      <p>Below are links to all the student websites.</p>
+    </section>
+
   </div>
 
-  <footer id="bottom">
+  <footer>
     <div class="container">
-      <h1>Footer</h1>
-      <p>This website was built by Ross in Merrritt, BC.</p>
-      <p>Click <a href="#top">here</a> to go to the top of the page.</p>
-      <p>Some images on this site are courtesy of <a href="https://www.nvit.ca">NVIT</a>. Header background image by <a href="https://flic.kr/p/ppmH4v">FancyLady</a>.</p>
+      <p class="index">Built with ❤️by Ross Noble in Merrritt, BC Some images on this site are courtesy of <a href="https://www.nvit.ca">NVIT</a>. Header background image by <a href="https://flic.kr/p/ppmH4v">FancyLady</a>.</p>
     </div>
   </footer>
 </body>
