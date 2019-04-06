@@ -74,23 +74,18 @@ img {
 }
 
 code {
-  background: lightgrey;
+  background: #FAE1DC; /* Light pink */
+  border: 1px solid #EDC5C5; /* Darker pink */
+  color: #570513; /* Deep red */
   padding: 0 5px 3px;
   border-radius: 3px;
 }
 
-/* Groups */
-header,
-section,
-footer {
-  clear: both;
-  padding: 45px;
-  border: 3px dashed red;
-}
+/* HEADER */
 
 header {
   background-color: lightgray;
-  background-image: url('images/nicola-valley-dark.jpg');
+  background-image: url(images/computer-code.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -100,7 +95,7 @@ header {
 }
 
 header h1 {
-  font-size: 48px;
+  font-size: 28px;
 }
 
 header h1 a {
@@ -113,35 +108,11 @@ header h1 {
   color: white;
 }
 
-footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-}
-
-footer h1 {
-  color: white;
-}
-
-section {
-  padding: 0;
-  margin: 45px 0;
-}
-
-section h1 {
-  color: #c03434; /* Maroon */;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 /* NAVIGATION */
 
 .nav {
-  background-color: black;
+  clear: both;
+  background-color: #1E1E1E;
 }
 
 .nav ul {
@@ -159,12 +130,52 @@ section h1 {
 .nav li a {
   display: block;
   color: white;
-  font-weight: bold;
 }
 
 .nav .nav-selected a {
   color: orange;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  background-image: url(images/nicola-valley-dark.jpg);
+  background-size: cover;
+  background-position: center 54%;
+  padding: 100px 0;
+  clear: both;
+  text-align: center;
+  color: white;
+}
+
+footer h1 {
+  color: white;
+}
+
+footer .small {
+  font-size: 14px;
+  color: grey;
+}
+
+/* Section */
+
+section {
+  clear: both;
+  padding: 0;
+  margin: 45px 0;
+}
+
+section h1 {
+  color: #c03434; /* Maroon */;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 /* TABLES */
 
@@ -200,15 +211,6 @@ table td {
   padding-right: 15px;
 }
 
-.banner {
-  /* background-image: url(images/mountain-medium.jpg); */
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  text-align: center;
-  padding-top: 120px;
-}
-
 .banner h2 {
   font-size: 60px;
   margin-bottom: 50px;
@@ -239,11 +241,7 @@ table td {
   width: calc(100%/3);
 }
 
-.images {
-  text-align: center;
-}
-
-.images img {
-  float: left;
-  width: 50%;
+.video {
+  width: 100%;
+  height: 433px;
 }
