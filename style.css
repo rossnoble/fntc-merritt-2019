@@ -112,6 +112,7 @@ header h1 {
 
 .nav {
   clear: both;
+  display: none;
   background-color: #1E1E1E;
 }
 
